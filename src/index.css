@@ -1,0 +1,10 @@
+body{
+  background-color: #171717;
+  font-family: 'Fira Code',
+  sans-serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
