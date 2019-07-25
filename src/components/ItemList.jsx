@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import SiteItem from './SiteItem'
 
 function ItemList({ items }) {
 
@@ -13,7 +14,7 @@ function ItemList({ items }) {
       </Link>
       <div>
         {
-          items !== false ? items.map(x => x) : <span className="info">No items inputed</span>
+          items !== false ? items.map(x => (<SiteItem value={x} />)) : <span className="info">No items inputed</span>
         }
       </div>
     </div>
