@@ -2,8 +2,6 @@ import React from 'react'
 
 function SiteItem({ value }) {
 
-  console.log(value)
-
   const { siteName, username, password } = value;
 
   return (

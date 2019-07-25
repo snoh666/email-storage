@@ -9,7 +9,6 @@ import reducer, { initialState } from './Functions';
 function App() {
 
   let [state, dispatch] = useReducer(reducer, initialState());
-  console.log(state);
 
   return (
     <Router>

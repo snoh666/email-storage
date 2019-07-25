@@ -35,7 +35,6 @@ function NewItem({ history, dispatch }) {
         password: password
       }});
       history.push('/list');
-      console.log('Disptached')
     }
   }
 

@@ -17,7 +17,6 @@ function Login({ history, propPassword, dispatch }) {
 
   const formSubmit = e => {
     e.preventDefault();
-    console.log(typeof propPassword)
     if(typeof propPassword !== 'string') {
       dispatch({ type: 'SET_PASSWORD', body: password});
       history.push('/list');
