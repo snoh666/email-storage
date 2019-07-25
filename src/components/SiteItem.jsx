@@ -1,5 +1,4 @@
 import React from 'react'
-import uuid from 'uuid/v4';
 
 function SiteItem({ value }) {
 
@@ -8,7 +7,7 @@ function SiteItem({ value }) {
   const { siteName, username, password } = value;
 
   return (
-    <div className="list-item" key={uuid()}>
+    <div className="list-item">
       <span>Site name: {siteName} </span>
       <span> Username: {username} </span>
       <span> Password: {password} </span>
