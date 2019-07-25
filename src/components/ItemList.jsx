@@ -1,9 +1,21 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-function ItemList() {
+function ItemList({ items }) {
+
+  console.log(items);
+
   return (
     <div className="List">
       <h1>Item list</h1>
+      <Link to='/new-item'>
+        <button>New Item</button>
+      </Link>
+      <div>
+        {
+          items !== false ? items.map(x => x) : <span className="info">No items inputed</span>
+        }
+      </div>
     </div>
   )
 }
