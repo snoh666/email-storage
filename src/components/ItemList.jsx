@@ -4,8 +4,6 @@ import SiteItem from './SiteItem'
 
 function ItemList({ items }) {
 
-  console.log(items);
-
   return (
     <div className="List">
       <h1>Item list</h1>
