@@ -5,6 +5,7 @@ Basic react email and password storage to simplify remembering every login detai
 ## Packages installed
 - gh-pages
 - react-router
+- uuid v4
 
 ## What i used?
 - useState
