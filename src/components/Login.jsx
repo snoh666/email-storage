@@ -9,7 +9,7 @@ function Login({ history, propPassword, dispatch }) {
     if (propPassword === false) {
       setInfo('This password will be set to future use');
     }
-  }, [])
+  }, [propPassword])
 
   const updatePassword = e => {
     setPassword(e.target.value);
