@@ -65,13 +65,28 @@ button {
 .List{
   width: 90vw;
   height: 80vh;
-  overflow-y: scroll;
   padding: 40px 20px;
   border: 2px solid white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: center;
+}
+.list-container{
+  width: 100%;
+  padding-right: 10px;
+  min-height: 85%;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+.list-container::-webkit-scrollbar {
+  width: 10px;
+  border: 1px solid white;
+  /* border-bottom: 1px solid white; */
+}
+.list-container::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 8px;
 }
 .list-item{
   width: 100%;
