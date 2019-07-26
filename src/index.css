@@ -84,7 +84,7 @@ button {
 }
 
 .NewItem {
-  width: 400px;
+  width: 500px;
   height: 420px;
   padding: 20px 10px;
   border: 2px solid white;
@@ -102,5 +102,11 @@ button {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
+}
+.buttons-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-around;
 }
