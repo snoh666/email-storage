@@ -19,6 +19,10 @@ function NewItem({ history, dispatch }) {
     setPassword(e.target.value);
   }
 
+  const goBack = () => {
+    history.push('/list');
+  }
+
   const submitNewItemForm = e => {
     e.preventDefault();
     if(siteName.length <= 3) {
@@ -45,7 +49,10 @@ function NewItem({ history, dispatch }) {
         <input type="text" placeholder="Site name" value={siteName} onChange={updateSiteName} />
         <input type="text" placeholder="Nickname" value={nickname} onChange={updateNickname} />
         <input type="password" placeholder="Password" value={password} onChange={updatePassword} />
-        <button type="submit">Add Item</button>
+        <div className="buttons-box">
+          <button onClick={goBack} >Go Back</button>
+          <button type="submit">Add Item</button>
+        </div>
       </form>
       <div className="info">
         {info}
