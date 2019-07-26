@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/email-storage/static/css/main.56f774ac.chunk.css",
-    "main.js": "/email-storage/static/js/main.514ad7c4.chunk.js",
-    "main.js.map": "/email-storage/static/js/main.514ad7c4.chunk.js.map",
+    "main.js": "/email-storage/static/js/main.02507814.chunk.js",
+    "main.js.map": "/email-storage/static/js/main.02507814.chunk.js.map",
     "runtime~main.js": "/email-storage/static/js/runtime~main.423dfd34.js",
     "runtime~main.js.map": "/email-storage/static/js/runtime~main.423dfd34.js.map",
     "static/js/2.0e99b853.chunk.js": "/email-storage/static/js/2.0e99b853.chunk.js",
     "static/js/2.0e99b853.chunk.js.map": "/email-storage/static/js/2.0e99b853.chunk.js.map",
     "index.html": "/email-storage/index.html",
-    "precache-manifest.ca04502db926fdb69b72fc1fe4093d97.js": "/email-storage/precache-manifest.ca04502db926fdb69b72fc1fe4093d97.js",
+    "precache-manifest.2ba2c3b5e769cb2e8d5e22b9678d68bd.js": "/email-storage/precache-manifest.2ba2c3b5e769cb2e8d5e22b9678d68bd.js",
     "service-worker.js": "/email-storage/service-worker.js",
     "static/css/main.56f774ac.chunk.css.map": "/email-storage/static/css/main.56f774ac.chunk.css.map"
   }
