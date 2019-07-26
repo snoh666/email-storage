@@ -64,7 +64,8 @@ button {
 }
 .List{
   width: 90vw;
-  min-height: 50vh;
+  height: 80vh;
+  overflow-y: scroll;
   padding: 40px 20px;
   border: 2px solid white;
   display: flex;
