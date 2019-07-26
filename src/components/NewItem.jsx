@@ -46,9 +46,9 @@ function NewItem({ history, dispatch }) {
     <div className="NewItem">
       <h1>New Item</h1>
       <form onSubmit={submitNewItemForm} className="new-item-form">
-        <input type="text" placeholder="Site name" value={siteName} onChange={updateSiteName} />
-        <input type="text" placeholder="Nickname" value={nickname} onChange={updateNickname} />
-        <input type="password" placeholder="Password" value={password} onChange={updatePassword} />
+        <input type="text" name="new-item-site-name" placeholder="Site name" value={siteName} onChange={updateSiteName} />
+        <input type="text" name="new-item-username" placeholder="Nickname" value={nickname} onChange={updateNickname} />
+        <input type="password" name="new-item-password" placeholder="Password" value={password} onChange={updatePassword} />
         <div className="buttons-box">
           <button onClick={goBack} >Go Back</button>
           <button type="submit">Add Item</button>

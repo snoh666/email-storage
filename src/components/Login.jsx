@@ -33,7 +33,7 @@ function Login({ history, propPassword, dispatch }) {
     <div className = "Login">
       <h2>Login</h2 >
     <form className="login-form" onSubmit={formSubmit}>
-      <input type="password" placeholder="Password" value={password} onChange={updatePassword} />
+      <input type="password" name="login-password" placeholder="Password" value={password} onChange={updatePassword} />
       <button type="submit">Login</button>
       <div className="info">
         {info}
