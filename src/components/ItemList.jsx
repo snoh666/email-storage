@@ -11,7 +11,7 @@ function ItemList({ items }) {
       <Link to='/new-item'>
         <button>New Item</button>
       </Link>
-      <div>
+      <div className="list-container">
         {
           items !== false ? items.map(x => (<SiteItem key={uuid()} value={x} />)) : <span className="info">No items inputed</span>
         }
