@@ -24,6 +24,15 @@ const reducer = (state, action) => {
         password: state.password,
         list: [body, ...state.list]
       };
+    case 'DELETE_ITEM':
+      localStorage.setItem('list', JSON.stringify({
+        password: state.password,
+        list: state.list.filter(value => value.id !== body.id ? value : null)
+      }));
+      return {
+        password: state.password,
+        list: state.list.filter(value => value.id !== body.id ? value : null)
+      };
     default:
       throw new Error()
 
