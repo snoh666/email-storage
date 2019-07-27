@@ -133,3 +133,11 @@ button {
   padding: 0;
   margin: 0;
 }
+a{
+  padding: 5px 10px;
+  color: #3498db;
+  transition: color .4s ease-out;
+}
+a:hover{
+  color: #9b59b6;
+}
