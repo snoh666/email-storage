@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import uuid from 'uuid/v4';
 
 function NewItem({ history, dispatch }) {
 
@@ -34,6 +35,7 @@ function NewItem({ history, dispatch }) {
     } else if (siteName.length >= 3 && nickname.length >= 3 && password.length >= 3) {
       setInfo('');
       dispatch({type: 'ADD_ITEM', body: {
+        id: uuid(),
         siteName: siteName,
         username: nickname,
         password: password
