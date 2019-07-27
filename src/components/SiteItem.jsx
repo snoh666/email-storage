@@ -5,10 +5,7 @@ function SiteItem({ value, dispatch }) {
   const { siteName, username, password } = value;
 
   const deleteItem = () => {
-    console.log(value);
-
     dispatch({ type: 'DELETE_ITEM', body: { id: value.id}});
-    console.log('Should be deleted');
   }
 
   return (
