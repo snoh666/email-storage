@@ -126,3 +126,10 @@ button {
   align-items: center;
   justify-content: space-around;
 }
+.delete{
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
