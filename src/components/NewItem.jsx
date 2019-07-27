@@ -26,6 +26,7 @@ function NewItem({ history, dispatch }) {
 
   const submitNewItemForm = e => {
     e.preventDefault();
+
     if(siteName.length <= 3) {
       setInfo('Site name has to be longer than 3 letters');
     } else if(nickname.length <= 3) {
